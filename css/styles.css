@@ -1,0 +1,26 @@
+:root{
+    --light-green: rgb(237, 252, 236);
+    --light-brown: beige;
+    --green: rgb(40,167,69);
+    --brown: burlywood;
+}
+
+body{
+    background-color: var(--light-green);
+}
+
+.nav{
+
+}
+
+.hero{
+
+}
+
+.bg1{
+    background-color: var(--light-brown);
+}
+
+.bg2{
+    background-color: var(--brown);
+}
