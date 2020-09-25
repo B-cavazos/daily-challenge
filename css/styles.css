@@ -3,6 +3,8 @@
     --light-brown: beige;
     --green: rgb(40,167,69);
     --brown: burlywood;
+
+    overflow-x: hidden
 }
 
 body{
@@ -15,7 +17,7 @@ body{
 }
 
 .jumbotron{
-    height: 600px;
+    height: 800px;
     background-image: url(../images/hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
