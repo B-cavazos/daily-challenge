@@ -15,10 +15,11 @@ body{
 }
 
 .jumbotron{
-    height: 80vh;
+    height: 600px;
     background-image: url(../images/hero.jpg);
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 }
 
