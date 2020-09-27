@@ -17,7 +17,7 @@ body{
 }
 
 .jumbotron{
-    height: 800px;
+    height: 500px;
     background-image: url(../images/heroedit.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -31,4 +31,8 @@ body{
 
 .bg2{
     background-color: var(--brown);
+}
+
+.social{
+    height: 30px;
 }
