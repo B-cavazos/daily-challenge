@@ -1,8 +1,8 @@
 :root{
-    --light-green: rgb(237, 252, 236);
-    --light-brown: beige;
-    --green: rgb(40,167,69);
-    --brown: burlywood;
+    --light-green: rgb(168,183,178);
+    --light-brown: rgb(235,234,229);
+    --green: rgb(65,86,77);
+    --brown: rgb(33,26,10);
 
     overflow-x: hidden
 }
@@ -18,10 +18,9 @@ body{
 
 .jumbotron{
     height: 500px;
-    background-image: url(../images/heroedit.jpg);
+    background-image: url(../images/jumbotron.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
 
 }
 
