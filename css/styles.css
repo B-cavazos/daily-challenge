@@ -1,3 +1,6 @@
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Lato', sans-serif; */
+
 :root{
     --light-green: rgb(168,183,178);
     --light-brown: rgb(235,234,229);
@@ -29,6 +32,29 @@ body{
 
 }
 
+h1{
+    font-family: 'Abril Fatface', cursive;
+    color: var(--green)
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+a{
+    color: var(--green)
+}
+
+
+
+.sub-head{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    color: var(--light-green)
+
+}
 
 #guests{}
 
@@ -44,6 +70,12 @@ body{
     margin-bottom: 30px;
 }
 
+.guest-name{
+    ont-family: 'Lato', sans-serif; 
+    font-weight: 600;
+    color: var(--light-brown);
+}
+
 #tickets{
     height: 500px;
     background-image: url(/images/bg-tickets.svg);
@@ -55,6 +87,17 @@ body{
 #venue{
     background-image: url(/images/bg-venue.svg);
     background-blend-mode: screen;
+
+}
+
+.info-box{
+    background-color: var(--light-green);
+    border: solid 2px var(--light-brown);
+    border-radius: 3px;;
+    width: 70%;
+    padding: 20px 10px;
+    margin-top: 30px;
+    text-align: left;
 }
 
 .bg1{

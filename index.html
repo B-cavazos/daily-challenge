@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="js/bootstrap.min.js" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -20,13 +21,13 @@
         <div class="col-6">
           <ul class="nav justify-content-end">
             <li class="nav-item">
-                <a class="nav-link" href="#" alt="Speakers">Speakers</a>
+                <a class="nav-link" href="#guests" alt="Guests">Speakers</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active bg-dark" href="#" alt="Tickets">Tickets</a>
+                <a class="nav-link active bg-dark" href="#tickets" alt="Tickets">Tickets</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" alt="Venue">Venue</a>
+                <a class="nav-link" href="#venue" alt="Venue">Venue</a>
             </li>
           </ul>
         </div>
@@ -35,10 +36,10 @@
 <!-- NAVIGATION END -->
 
 <!-- HERO START -->
-    <div id="hero" class="jumbotron jumbotron-fluid">
-        <div class="row pl-5">
-            <h1 class="col-12 display-3">Slothcon</h1>
-            <p class=" col-12 lead">Nap all day, party never</p>
+    <div id="hero" class="jumbotron jumbotron-fluid shadow-lg">
+        <div class="row pl-5 text-left">
+            <h1 class="col-12 display-2">Sloth-Con</h1>
+            <p class=" sub-head col-12 lead">Nap all day, party never</p>
             <button class="col-1 btn btn-success">Tickets</button>
         </div>
     </div>
@@ -47,40 +48,41 @@
 <!-- SPEAKERS START -->
     <div id="guests" class="container-fluid d-flex flex-column">
       <div class="row flex-column align-items-center my-5 pt-5">
-        <h2 class="display-4">The Speakers</h2>
-        <p>A few lines about the speaker</p>
+        <h2 class="display-4">Special Guests</h2>
+        <p>Photos taken from <a href="unsplash.com">Unsplash</a>. The sloths are named after the photographer of their respective picture. Click on the "@" username to see thier Unsplash profiles. Sloth facts are from <a href="https://www.worldanimalprotection.us/news/10-facts-about-sloths-natures-slowest-animals">World Animal Protection</a>.</p>
       </div>
       <div class="row justify-content-around mb-5 pb-5">  
         <div class="guest-card col-2 border-rounded shadow pb-5">
           <img class="guest-img shadow" src="/images/G1-Jack-Charles.jpg">
           <br>
-          <p>Jack Charles</p>
-          <p>info info info</p>
-          <a href="" alt="">@username</a>
+          <p class="guest-name">Jack Charles</p>
+          <p>Sloths possess a symbiotic relationship with the algae that grows on their fur. While the sloth provides the algae with shelter and water (as sloth fur is highly absorbent), the algae provide the sloth with camouflage as well as extra nutrients through their skin.</p>
+          <a href="https://unsplash.com/@jackcharles" alt="Jack Charles' Unspash Page">@jackcharles</a>
         </div>
 
         <div class="guest-card col-2 border-rounded shadow pb-5">
           <img class="guest-img shadow" src="/images/G2-William-Phipps.jpg">
           <br>
-          <p>William Phipps</p>
-          <p>info info info</p>
-          <a href="" alt="">@username</a>
+          <p class="guest-name">William Phipps</p>
+          <p>The Greek goddess Aergia was the ancient personification of sloth, and was known to sleep often. The sleeping pattern of a modern day sloth is dependent on its habitat, with sloths in captivity sleeping up to 15-20 hours a day whilst sloths in the wild sleep as much as humans, at around 8-9 hours a day.
+          </p>
+          <a href="https://unsplash.com/@billsworld" alt="William Phipp's Unspash Page">@billsworld</a>
         </div>
 
         <div class="guest-card col-2 border-rounded shadow pb-5">
           <img class="guest-img shadow" src="/images/G3-javier-mazzeo.jpg">
           <br>
-          <p>Javier Mazzeo</p>
-          <p>info info info</p>
-          <a href="" alt="">@username</a>
+          <p class="guest-name">Javier Mazzeo</p>
+          <p>The sloth’s nature allows it to conserve energy, moving slower than any other mammal on the planet. This modest pace means that sloths generally travel no more than 125 feet (38 meters) in a single day, and on the rare occasion that they find themselves at ground level, they crawl only 1 foot (30 cm) per minute.</p>
+          <a href="https://unsplash.com/@javier365" alt="Javier Mazzeo's Unspash Page">@javier365</a>
         </div>
 
         <div class="guest-card col-2 border-rounded shadow pb-5">
           <img class="guest-img shadow" src="/images/G4-sophia-muller.jpg">
           <br>
-          <p>Spohia Muller</p>
-          <p>info info info</p>
-          <a href="" alt="">@username</a>
+          <p class="guest-name">Spohia Muller</p>
+          <p>Sloths have an extra vertebrae at the base of their neck that allows them to turn their head on a 270° axis. This enables them to obtain an almost 360° view of their surroundings, which proves to be a highly beneficial defensive mechanism. This unique feature makes sloths stand out from other mammals whose bone structures do not allow this flexibility.</p>
+          <a href="https://unsplash.com/@sevethavi" alt="Spohia Muller'S Unsplash page">@sevethavi</a>
         </div>
       </div>
     </div>
@@ -89,7 +91,7 @@
 <!-- TICKETS Section START -->
     <div id="tickets" class="container-fluid justify-content-center border-bottom border-top border-dark py-5">
       <div class="text-center py-5">
-          <h2 class="col-12 display-3 py-4">Get Your Ticket Today!</h1>
+          <h2 class="col-12 display-3 pt-4">Get Your Ticket Today!</h1>
           <p class="col-12 lead">Each ticket includes: <b>20</b> speakers, <b>1000</b> participants, <b>15</b> Nap Rooms, <b>5</b> keynotes</p>
           <button class="col-1 btn btn-success mt-5">Buy Tickets $1.49</button>
       </div>
@@ -98,21 +100,24 @@
 <!-- TICKETS Section END -->
 
 <!-- VENUE Section START -->
-    <div id="venue" class="container-fluid d-flex justify-content-center py-5">
+    <div id="venue" class="container-fluid d-flex justify-content-center align-items-center py-5">
       <div class="col-4">
           <h2 class="">The Venue</h1>
           <p class="">Our event will be held at the <b>place</b> on that <b>street</b> in that <b>building</b></p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3931.608988597849!2d-82.91686698520746!3d9.799113892989022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa6ff8e87552023%3A0x6520ebccd419922d!2sSantuario%20de%20Perezosos%20de%20Costa%20Rica!5e0!3m2!1sen!2sus!4v1601033726690!5m2!1sen!2sus" width="80%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
       <div class="flex-column col-4">
-        <img src=""> Lorem, ipsum dolor.
+        <center><img src="/images/icon-sloth.png" alt="polygon sloth">
+        <div class="info-box">
+          In the wild, sloths typically live quiet, sleepy lives. When used as props for tourist photos, they are constantly surrounded by noise and poorly handled by both guides and tourists alike. Research shows that sloths are frequently held by their claws or arms with no support at all, causing them to experience high levels of fear and stress. I wish I could hold a sloth.</center>
+        </div>
     </div>
     </div>
 <!-- VENUE Section END -->
 <!-- FOOTER START -->
     <footer class="container-flex">
-      <div class="d-flex row justify-content-between">
-          <p class="col-5 pl-5">All rights reserved Brittney C. @ Geekwise MobileFriendly</p>
+      <div class="d-flex row justify-content-between align-items-center">
+            <p class="col-5 pl-5">All rights reserved Brittney C. @ Geekwise MobileFriendly</p>
           <div class="col-5 d-flex justify-content-end">
             <a href=""><img class="px-3 social" src="/images/icon-insta.svg" alt="icon"></a>
             <a href=""><img class=" social" src="/images/icon-youtube.svg" alt="icon"></a>
