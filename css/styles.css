@@ -12,15 +12,44 @@ body{
 }
 
 .nav{
-    height: 100px;
+    /* height: 100px; */
 
 }
+
+.nav-link{
+    color: var(--green);
+}
+
 
 .jumbotron{
     height: 500px;
     background-image: url(../images/jumbotron.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+}
+
+
+#guests{}
+
+.guest-card{
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+.guest-img{
+    width: 100%;
+    justify-content: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+#tickets{
+    height: 500px;
+    background-color: var(--light-green);
+    background-image: url(/images/bg-tickets.svg);
+    background-blend-mode: screen;
+    color: var(--green);
 
 }
 

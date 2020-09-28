@@ -11,74 +11,74 @@
   <body>
 
     <!-- NAVIGATION START -->
-    <nav class="container-fluid">
-      <div class="row bg2">
+    <nav class="nav nav-pills py-2">
+      <!-- <div class="row bg1"> -->
         <div class="col-6">
           <a class="navbar-brand" href="#landing" alt="Landing Page"
             >Logo goes here</a>
         </div>
         <div class="col-6">
-          <ul class="nav justify-content-end bg1">
+          <ul class="nav justify-content-end">
             <li class="nav-item">
                 <a class="nav-link" href="#" alt="Speakers">Speakers</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" alt="Tickets">Tickets</a>
+                <a class="nav-link active bg-dark" href="#" alt="Tickets">Tickets</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" alt="Venue">Venue</a>
             </li>
           </ul>
         </div>
-      </div>
+      <!-- </div> -->
     </nav>
 <!-- NAVIGATION END -->
 
 <!-- HERO START -->
-    <div id="hero" class="jumbotron jumbotron-fluid d-flex justify-content-center bg1">
-        <div class="row align-items-center text-center">
+    <div id="hero" class="jumbotron jumbotron-fluid">
+        <div class="row pl-5">
             <h1 class="col-12 display-3">Slothcon</h1>
             <p class=" col-12 lead">Nap all day, party never</p>
-            <button class="col-12 btn">Tickets</button>
+            <button class="col-1 btn btn-success">Tickets</button>
         </div>
     </div>
 <!-- HERO END -->
 
 <!-- SPEAKERS START -->
-    <div class="speakers container d-flex flex-column">
-      <div class="row flex-column align-items-center">
+    <div id="guests" class="container-fluid d-flex flex-column">
+      <div class="row flex-column align-items-center my-5 pt-5">
         <h2 class="display-4">The Speakers</h2>
         <p>A few lines about the speaker</p>
       </div>
-      <div class="row justify-content-around">  
-        <div class="col-2">
-          <img>
+      <div class="row justify-content-around mb-5 pb-5">  
+        <div class="guest-card col-2 border-rounded shadow pb-5">
+          <img class="guest-img shadow" src="/images/G1-Jack-Charles.jpg">
           <br>
-          <p>Name</p>
+          <p>Jack Charles</p>
           <p>info info info</p>
           <a href="" alt="">@username</a>
         </div>
 
-        <div class="col-2">
-          <img>
+        <div class="guest-card col-2 border-rounded shadow pb-5">
+          <img class="guest-img shadow" src="/images/G2-William-Phipps.jpg">
           <br>
-          <p>Name</p>
+          <p>William Phipps</p>
           <p>info info info</p>
           <a href="" alt="">@username</a>
         </div>
 
-        <div class="col-2">
-          <img>
+        <div class="guest-card col-2 border-rounded shadow pb-5">
+          <img class="guest-img shadow" src="/images/G3-javier-mazzeo.jpg">
           <br>
-          <p>Name</p>
+          <p>Javier Mazzeo</p>
           <p>info info info</p>
           <a href="" alt="">@username</a>
         </div>
 
-        <div class="col-2">
-          <img>
+        <div class="guest-card col-2 border-rounded shadow pb-5">
+          <img class="guest-img shadow" src="/images/G4-sophia-muller.jpg">
           <br>
-          <p>Name</p>
+          <p>Spohia Muller</p>
           <p>info info info</p>
           <a href="" alt="">@username</a>
         </div>
@@ -87,19 +87,18 @@
 <!-- SPEAKERS END -->
 
 <!-- TICKETS Section START -->
-    <hr>
-    <div class="container-fluid justify-content-center">
-      <div class="row text-center">
-          <h2 class="col-12 display-3">Get Your Ticket Today!</h1>
-          <p class=" col-12 lead">Each ticket includes: <b>20</b> speakers, <b>1000</b> participants, <b>15</b> Nap Rooms, <b>5</b> keynotes</p>
-          <button class="col-12 btn">Buy Tickets $1.49</button>
+    <div id="tickets" class="container-fluid justify-content-center align-items-cente py-5 my-5">
+      <div class="text-center py-5">
+          <h2 class="col-12 display-3 py-4">Get Your Ticket Today!</h1>
+          <p class="col-12 lead">Each ticket includes: <b>20</b> speakers, <b>1000</b> participants, <b>15</b> Nap Rooms, <b>5</b> keynotes</p>
+          <button class="col-1 btn btn-success mt-5">Buy Tickets $1.49</button>
       </div>
     </div>
-    <hr>
+
 <!-- TICKETS Section END -->
 
 <!-- VENUE Section START -->
-    <div class="container-fluid d-flex justify-content-center">
+    <div class="container-fluid d-flex justify-content-center py-5">
       <div class="col-4">
           <h2 class="">The Venue</h1>
           <p class="">Our event will be held at the <b>place</b> on that <b>street</b> in that <b>building</b></p>
