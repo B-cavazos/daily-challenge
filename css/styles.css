@@ -46,11 +46,15 @@ body{
 
 #tickets{
     height: 500px;
-    background-color: var(--light-green);
     background-image: url(/images/bg-tickets.svg);
     background-blend-mode: screen;
     color: var(--green);
 
+}
+
+#venue{
+    background-image: url(/images/bg-venue.svg);
+    background-blend-mode: screen;
 }
 
 .bg1{
